@@ -1,0 +1,1 @@
+function hideMenu(){$(".main-nav li.open").removeClass("open")}$(document).ready(function(){$(".toggle-nav").click(function(e){e.preventDefault(),$("#left").toggle().toggleClass("forced-hide"),$("div.right").toggleClass("reight_p");var a=$("i",this);a.hasClass("icon-arrow-left")?a.removeClass().addClass("icon-arrow-right"):a.removeClass().addClass("icon-arrow-left")})});

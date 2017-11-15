@@ -1,0 +1,1 @@
+function submit_query(){if(checkFormValueById("frmQuery")){$("#frmQuery").showLoading();var e=document.getElementById("frmQuery");e.action=govPublicQueryActionUrl,e.target="iframeQuery",e.submit()}}

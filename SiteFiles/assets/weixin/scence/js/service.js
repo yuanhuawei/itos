@@ -1,0 +1,1 @@
+var service={};service.baseUrl="/api/wx_scence/",service.publishmentSystemID=utilService.getUrlVar("publishmentSystemID"),service.getUrl=function(e,r){return service.baseUrl+e+"?id=1&publishmentSystemID=1091"},service.getScenceParameter=function(e,r){$.getJSON(service.getUrl("GetScenceParameter",e),{},r)};

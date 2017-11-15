@@ -1,0 +1,1 @@
+toastr.options={positionClass:"toast-bottom-full-width"};var notifyService={successCallback:function(s){toastr.success("操作成功")},errorCallback:function(s){var t=s.data.exceptionMessage;t||(t=s.data.message),t?toastr.error("操作失败："+t):toastr.error("操作失败")},success:function(s){s||(s="操作成功"),toastr.success(s)},error:function(s){s||(s="操作失败"),toastr.error(s)}};

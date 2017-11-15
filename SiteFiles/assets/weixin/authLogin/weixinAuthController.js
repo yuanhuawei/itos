@@ -1,0 +1,1 @@
+function weixinAuth(t){$.ajax({type:"get",async:!1,url:"http://api.gexia.com/weixinauth/WeiXinAuthorize",data:{returnUrl:t},dataType:"jsonp",success:function(t){t.length>0&&(location.href=t)}})}

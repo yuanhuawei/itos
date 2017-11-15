@@ -1,0 +1,1 @@
+function stlDiggCheck(e,t){var i=document.cookie,n="stlDigg_"+e+"_"+t,o=i.indexOf(n+"=");if(o!=-1)return alert(decodeURIComponent("%E5%AF%B9%E4%B8%8D%E8%B5%B7%EF%BC%8C%E4%B8%8D%E8%83%BD%E9%87%8D%E5%A4%8D%E6%93%8D%E4%BD%9C!")),!1;var r=n+"=true",D=new Date,E=864e5;return D.setTime(D.getTime()+E),r+="; expires="+D.toGMTString(),document.cookie=r,!0}
